@@ -6,8 +6,8 @@ main {
 .cards-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: $gutter;
-    grid-row-gap: $gutter;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
 }
         
 .search {

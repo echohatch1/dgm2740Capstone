@@ -168,13 +168,15 @@ main {
             margin-top: -20px;
             i {
                 position: relative;
-                top: 20px;
+                top: 26px;
                 left: $gutter;
             }
             i:hover {
                 cursor: pointer;
             }
             input {
+                padding-top: $gutter;
+                padding-bottom: $gutter;
                 padding-left: $gutterdbl * 2;
                 width: 100%;
                 background: $fontColor;
@@ -198,14 +200,12 @@ main {
 
         
         .card {
-            /* Add shadows to create the "card" effect */
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
             transition: 0.3s;
             background: $fontColor;
             padding-top: $gutterdbl * 2;
             padding-right: $gutterdbl * 2;
             padding-left: $gutterdbl * 2;
-            margin-bottom: $gutterdbl;
             figure {
                 
                 img {
@@ -238,28 +238,35 @@ main {
             }
             .container {
                 position: relative;
-                bottom: 20px;
+                bottom: 30px;
             }
 }
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-
-       
-        
-        
-        
+   
     } //end main div       
 } // end main
 
 
 /*  ------------- FOOTER -------------  */
+.footer-div {
+
 footer {
-    
-    
+    display: block;
+    float: left;
+	width: 100%;
+	background-color: $fontColor;
+
+	p {
+		text-align: center;
+		color: $secondaryColor;
+		padding: .75rem 0;
+		font-size: .9rem;
+        font-weight: $boldWeight;
+	} // end p
+	p a {
+        color: $secondaryColor;
+        text-decoration: none;
+    }
+} 
 }// end footer
 
 

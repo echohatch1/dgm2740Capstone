@@ -5,9 +5,9 @@ main {
 }
 .cards-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: $gutter;
-    grid-row-gap: $gutter;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
 }
     }//end main div
 }//end main
