@@ -12,6 +12,7 @@ body {
     min-height: 100%;
     width: 100%;
     background: $primaryColor;
+    position: absolute;
     
     h2 {
         color: $fontColor;
@@ -34,7 +35,6 @@ header {
             width: 100%;
         }
     }
-    
     figure:hover {
         cursor: pointer;
     }
@@ -99,7 +99,6 @@ main {
     float: left;
     width: 100%;
     background: $fontColor;
-    color: $primaryColor;
     text-align: center;
     border: none;
     padding: $gutter;
@@ -107,7 +106,7 @@ main {
     font-size: 1rem;
     i {
         font-size: 1rem;
-        color: $fontColor;
+        color: $primaryColor;
         margin: 0;
     }
 }
@@ -163,6 +162,40 @@ main {
         }
 
     }// end nav
+        
+        .search {
+            margin: $gutterdbl;
+            margin-top: -20px;
+            i {
+                position: relative;
+                top: 20px;
+                left: $gutter;
+            }
+            i:hover {
+                cursor: pointer;
+            }
+            input {
+                padding-left: $gutterdbl * 2;
+                width: 100%;
+                background: $fontColor;
+                border-radius: 10px;
+                border: 2px solid $fontColor;
+            }
+        }
+        
+        .checkbox {
+            color: $fontColor;
+            text-align: center;
+            margin-bottom: $gutterdbl;
+            label:hover {
+                cursor: pointer;
+        }
+            input:hover {
+                cursor: pointer;
+            }
+        }
+        
+
         
         .card {
             /* Add shadows to create the "card" effect */

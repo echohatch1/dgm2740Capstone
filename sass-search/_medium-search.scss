@@ -1,0 +1,26 @@
+main {
+    #main-div {
+        .card {
+            margin-bottom: 0;
+        }
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: $gutter;
+    grid-row-gap: $gutter;
+}
+        
+.search {
+            margin-right: 50%;
+            input {
+                
+            }
+        }
+
+.checkbox {
+    text-align: left;
+    margin-left: $gutterdbl;
+}
+
+    }//end main div
+}//end main
